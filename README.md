@@ -1,4 +1,5 @@
 Hello y'all, Welcome to Connect 4!
+deployed [Connect4](https://lilanawar.github.io/Connect4/)
 
 List of the technologies used: JavaScript, HTML, CSS
 
