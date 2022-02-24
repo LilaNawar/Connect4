@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1> Cowboy Connect 4🤠🤠🤠🤠</h1>
+        <h3 id='result'></h3>
+    <h2><button class= "reset" onClick="clearBoard()">Clear Board</button></h2>
+     <table class="game-board" onClick= "play(event)">
+        <tr>
+            <td class="cell" id="0-0"></td>
+            <td class="cell" id="0-1"></td>
+            <td class="cell" id="0-2"></td>
+            <td class="cell" id="0-3"></td>
+            <td class="cell" id="0-4"></td>
+            <td class="cell" id="0-5"></td>
+            <td class="cell" id="0-6"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="1-0"></td>
+            <td class="cell" id="1-1"></td>
+            <td class="cell" id="1-2"></td>
+            <td class="cell" id="1-3"></td>
+            <td class="cell" id="1-4"></td>
+            <td class="cell" id="1-5"></td>
+            <td class="cell" id="1-6"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="2-0"></td>
+            <td class="cell" id="2-1"></td>
+            <td class="cell" id="2-2"></td>
+            <td class="cell" id="2-3"></td>
+            <td class="cell" id="2-4"></td>
+            <td class="cell" id="2-5"></td>
+            <td class="cell" id="2-6"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="3-0"></td>
+            <td class="cell" id="3-1"></td>
+            <td class="cell" id="3-2"></td>
+            <td class="cell" id="3-3"></td>
+            <td class="cell" id="3-4"></td>
+            <td class="cell" id="3-5"></td>
+            <td class="cell" id="3-6"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="4-0"></td>
+            <td class="cell" id="4-1"></td>
+            <td class="cell" id="4-2"></td>
+            <td class="cell" id="4-3"></td>
+            <td class="cell" id="4-4"></td>
+            <td class="cell" id="4-5"></td>
+            <td class="cell" id="4-6"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="5-0"></td>
+            <td class="cell" id="5-1"></td>
+            <td class="cell" id="5-2"></td>
+            <td class="cell" id="5-3"></td>
+            <td class="cell" id="5-4"></td>
+            <td class="cell" id="5-5"></td>
+            <td class="cell" id="5-6"></td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
