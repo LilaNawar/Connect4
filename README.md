@@ -43,6 +43,9 @@ Below will be some screenshots:
 
 ![Where to find 'Clear Board Button'](photos/clrBrd.png)
 
+Future Enhancements:
+1. Adding audio
+2. Showing where the connection of 4 happened with a line drawn on the screen
 
 Have Fun! DUELLLLLLLLL
 
